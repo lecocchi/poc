@@ -1,0 +1,26 @@
+{
+    "args": {
+      "appBar": {
+        "args": {
+          "title": {
+            "args": {
+              "text": "Flutter Rendering UI Using JSON Data"
+            },
+            "type": "text"
+          }
+        },
+        "type": "app_bar"
+      },
+      "body": {
+        "child": {
+          "type": "network_image",
+          "args": {
+            "fit": "cover",
+            "src": "https://tech.pelmorex.com/wp-content/uploads/2020/10/flutter.png"
+          }
+        },
+        "type": "center"
+      }
+    },
+    "type": "scaffold"
+}
